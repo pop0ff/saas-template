@@ -14,12 +14,11 @@
   > git clone https://github.com/swe-course/saas-template.git
 ```
 * Install prerequisites, Prepare local env configuration files
-```
-  > cd saas-template
-  > sudo ./prereq.sh
+  ```
+  sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/swe-course/swec-content/master/prereq.sh)"
   > cp .env.template .env
   > cp settings.xml.template settings.xml
-```
+  ```
 * build & run
 ```
   > ./build.sh
